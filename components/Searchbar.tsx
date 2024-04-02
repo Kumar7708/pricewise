@@ -21,7 +21,7 @@ const isValidAmazonProductURL = (url: string) => {
 
 const Searchbar = () => {
 
-  const [searchPrompt, setSearchPrompt] = useState("https://www.amazon.in/dp/B0CS5XW6TN/ref=syn_sd_onsite_desktop_0?ie=UTF8&psc=1&pd_rd_plhdr=t&aref=QUjPRysp9O");
+  const [searchPrompt, setSearchPrompt] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
